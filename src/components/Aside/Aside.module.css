@@ -1,0 +1,16 @@
+.aside{
+  padding: 10px 20px;
+}
+
+.aside ul{
+  list-style-type: none;
+}
+
+.aside ul li{
+
+}
+
+.aside ul li a{
+  color: rgb(212, 212, 212);
+  
+}
