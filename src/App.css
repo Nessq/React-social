@@ -3,7 +3,7 @@
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 220px 10fr;
     grid-template-areas:
             "header header"
             "aside main"
@@ -12,20 +12,21 @@
 
 header{
     grid-area: header;
-    background-color: mediumseagreen;
+    background-color: #2f2d2d;
+    border-bottom: 1px solid #424243;
 }
 
 aside{
     grid-area: aside;
-    background-color: cornflowerblue;
+    background-color: #43454f;
 }
 
 main{
     grid-area: main;
-    background-color: #ffa8d6;
+    background-color: #3c3f41;
 }
 
 footer{
     grid-area: footer;
-    background-color: #31230b;
+    background-color: #3c3f41;
 }
