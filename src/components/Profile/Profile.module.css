@@ -1,0 +1,156 @@
+
+.main{
+  color: #cecece;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile{
+
+}
+
+.banner{
+  max-height: 200px;
+  background-color: #fff;
+  font-size: 1rem;
+  overflow: hidden;
+  font-size: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 40px;
+}
+.banner img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.content:last-child{
+  border: none;
+}
+
+.text{
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.date{
+  width: 50%;
+  text-align: left;
+}
+
+.like{
+  width: 50%;
+  text-align: right;
+  cursor: pointer;
+}
+
+.avatar{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.profileAvatar{
+  width: 100%;
+  text-align: center;
+  position: relative;
+
+}
+
+.profileAvatar img{
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  padding: 2px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+
+.profileName{
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px #000;
+  margin: 10px 0;
+}
+
+.profileAbout{
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000;
+  text-align: center;
+}
+.addPost{
+  display: grid;
+  grid-template-columns: 10fr minmax(100px, 2fr);
+}
+
+.addPost textarea{
+  resize: none;
+  outline: none;
+  border: 1px solid #e3e3e3;
+  padding: 5px 15px;
+  line-height: 30px;
+  overflow: hidden;
+  font-size: 18px;
+  max-height: 40px;
+
+}
+
+.addPost button{
+  border: 0;
+  outline: none;
+}
+
+.profileStatus{
+  position: relative;
+  color: #eaeaea;
+  font-size: 16px;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.profileStatus.profileStatusEdit{
+
+}
+
+.profileStatus p{
+  margin: 0;
+  cursor: pointer;
+}
+.profileStatus input{
+  flex: 1;
+  height: 100%;
+  outline: none;
+}
+
+.profileStatus .profileStatusForm{
+  display: flex;
+}
+
+.addPost textarea.noValid{
+  border: 1px solid #CB1010;
+  box-shadow: inset 10px 0 10px -10px rgb(203, 16, 16);
+}
+
+.noValidMessage{
+  color: firebrick;
+  height: 0;
+  opacity: 0;
+  transition: all .35s linear;
+}
+
+.noValidMessageShow{
+  height: 50px;
+  opacity: 1;
+}
