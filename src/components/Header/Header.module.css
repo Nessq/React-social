@@ -1,5 +1,8 @@
 .header{
-  padding: 10px 0;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -17,4 +20,12 @@
   font-size: calc(1rem * 2);
   margin: 0;
   text-transform: uppercase;
+}
+
+.loginBlock{
+  color: #e3e3e3;
+}
+
+.loginBlock a{
+  color: #e3e3e3;
 }

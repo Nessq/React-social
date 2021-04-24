@@ -1,0 +1,47 @@
+.login{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login h1{
+    color: #eaeaea;
+    font-size: 50px;
+}
+
+.login form{
+    background-color: #cecece;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 20px;
+    text-align: center;
+}
+.login form>div{
+    margin: 10px 0;
+}
+
+.login form input[type=text], .login form input[type=password]{
+    width: 100%;
+    height: 40px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #aeaeae;
+    padding: 0 10px;
+    outline: none;
+}
+.login form input[type=text]:focus, .login form input[type=password]:focus{
+    background-color: #fefefe;
+}
+
+
+.login form button{
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    background-color: darkgreen;
+    border: 0;
+    color: #eaeaea;
+    cursor: pointer;
+}

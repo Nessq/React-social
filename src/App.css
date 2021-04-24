@@ -1,4 +1,7 @@
-
+*{
+    box-sizing: border-box;
+    outline: none;
+}
 .app{
     min-height: 100vh;
     display: grid;
@@ -6,8 +9,7 @@
     grid-template-columns: 220px 10fr;
     grid-template-areas:
             "header header"
-            "aside main"
-            "footer footer";
+            "aside main";
 }
 
 header{
@@ -24,9 +26,15 @@ aside{
 main{
     grid-area: main;
     background-color: #3c3f41;
+    padding: 20px 20px;
+    position: relative;
 }
 
-footer{
-    grid-area: footer;
-    background-color: #3c3f41;
-}
+
+
+
+
+
+
+
+

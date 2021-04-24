@@ -12,5 +12,42 @@
 
 .aside ul li a{
   color: rgb(212, 212, 212);
-  
+  padding: 5px 0;
+  display: inline-block;
+}
+
+.aside ul li a:hover{
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.aside ul li a.active{
+  color: goldenrod;
+}
+
+.friendList{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.friendList div{
+  width: 33.33%;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.friendList div p{
+  margin: 2px 0;
+  color: #eaeaea;
+}
+.friendList div img{
+  background-color: #eee;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
 }
